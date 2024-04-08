@@ -1,4 +1,4 @@
-from Sklearn_pipeline.Ingest_data import df
+from Ingest_data import df
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer

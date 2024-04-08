@@ -1,7 +1,7 @@
 from sklearn.pipeline import Pipeline
-from Sklearn_pipeline.Feature_engineering import trf1,trf2
-from Sklearn_pipeline.Modeling import model
-from Sklearn_pipeline.Feature_engineering import x_train,y_train
+from Feature_engineering import trf1,trf2
+from Modeling import model
+from Feature_engineering import x_train,y_train
 from sklearn import set_config
 import pandas as pd
 

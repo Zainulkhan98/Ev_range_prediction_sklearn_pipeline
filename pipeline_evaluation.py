@@ -1,5 +1,5 @@
-from Sklearn_pipeline.Pipeline import pipe
-from Sklearn_pipeline.Feature_engineering import x_test,y_test,x_train
+from Pipeline import pipe
+from Feature_engineering import x_test,y_test,x_train
 import numpy as np
 from sklearn.metrics import r2_score,mean_squared_error,mean_absolute_error
 import pandas as pd
