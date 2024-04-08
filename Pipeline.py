@@ -14,6 +14,6 @@ pipe = Pipeline(steps=[('imputing_most_freq',trf1),
 
 # Fitting the pipeline
 pipe.fit(x_train,y_train)
-
-# For visualizing the pipeline
+# For visualizations
 set_config(display='diagram')
+
